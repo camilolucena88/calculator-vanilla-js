@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+    .numbers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .numbers div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        font-size: 30px;
+    }
+
+    .operators {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .operators div {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        font-size: 30px;
+    }
+
+    .result {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+<div class="display"></div>
+<div class="numbers">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>0</div>
+</div>
+<div class="operators">
+    <div class="clear">clear</div>
+    <div>+</div>
+    <div>-</div>
+    <div>*</div>
+    <div>/</div>
+    <div>=</div>
+</div>
+<div class="result"></div>
+</body>
+<script src="script.js"></script>
+</html>
